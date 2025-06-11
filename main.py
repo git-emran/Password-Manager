@@ -31,6 +31,7 @@ website_entry = Entry(width=35)
 website_entry.grid(column=1, row=1, columnspan=2)
 email_entry = Entry(width=35)
 email_entry.grid(column=1, row=2, columnspan=2)
+email_entry.insert(END, "emrn.hossn@gmail.com")
 password_entry = Entry(width=21)
 password_entry.grid(column=1, row=3)
 
